@@ -1,0 +1,839 @@
+hr{
+margin-top: 96px;
+
+}
+
+
+b{
+font-size: 20px;
+
+}
+
+#head{
+background-color:#f8f8f8;
+height: 114px;
+
+}
+#home_logo{
+
+text-decoration: none;
+border: none;
+
+}
+
+h2, h3, h6, h4, p,span {
+    font-style: normal;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: black;
+  font-style: normal;
+}
+
+::-moz-placeholder { /* Firefox 19+ */
+  color: black;
+  font-style: normal;
+}
+
+:-ms-input-placeholder { /* IE 10+ */
+  color: black;
+  font-style: normal;
+}
+
+
+:-moz-placeholder { /* Firefox 18- */
+  color: black;
+  font-style: normal;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin-right: 34px;
+    /* margin-top: 2%; */
+}
+
+
+li {
+    display: inline;
+}
+
+div#nav_top {
+    float: right;
+}
+
+.form_col{
+background-color: #f8f8f8;
+
+}
+
+
+.top_col{
+background-color: #f8f8f8;
+
+
+}
+
+
+/* @ media 1366*/
+
+
+@media only screen and (max-width : 1366px){
+
+
+    div#stories_pub {
+    margin-left: 6px;
+}
+
+    #stories_pub p{
+margin-left: 10px;
+
+}
+
+
+    .navbar-brand>img {
+    display: block;
+    padding-left: 69px !important;
+    padding-top: 10px !important;
+}
+        .overlay a {
+    padding: 1px;
+    text-decoration: none;
+    font-size: 40px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+    input[type=text], input[type=password] {
+     padding-right: 24%;
+     padding-top: 5%;
+    display: inline-block;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+
+        .button_buy{
+    background-color: transparent;
+    border-top: 1px solid black;
+    border-bottom: 1px solid lightgrey;
+    border-left: none;
+    border-right: none;
+    width: 33%;
+    margin-top: 66px;
+    margin-left: 207px;
+    font-size: 13.06 pt;
+
+
+
+    }
+
+
+#ab_mag {
+    border-top: 2px solid black;
+    padding-top: 30px;
+    margin-top: 60px;
+    font-size: 12px;
+    width: 100%;
+    margin-left:197px;
+}
+
+   #foot_ba{
+
+  background-color: #e6f6ff;
+  margin-top: 0px;
+
+    }
+
+    div#foot_b {
+    padding-top:5%;
+    padding-bottom:6%;
+    }
+
+    #s_icon{
+    float: right;
+
+    }
+    
+
+    #mag_z{
+
+      margin-top:16%;
+      font-size:50px;
+
+
+    }
+ .mg_img{
+      position:absolute;
+      margin-top:-213px;
+  }      
+
+    #sub_to_mag{
+
+    font-size: 60px;
+
+    }
+
+
+    #month_subs{
+    margin-top: 102px;
+    font-size: 22px;
+
+
+    }
+
+    .button_order{
+    margin-top: 102px;
+
+
+    }
+
+    .button_order{
+
+      background-color: black;
+      border: 1px solid white;
+      color: white;
+      margin-top: 102px;
+      height: 32px;
+      width: 160px;
+    }
+
+
+
+
+}
+
+
+/* @media1050*/
+
+
+@media only screen and (max-width : 1050px){
+
+      input[type=text], input[type=password] {
+     padding-right: 20%;
+     padding-top: 5%;
+    display: inline-block;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+        div#stories_pub {
+    margin-left: 6px;
+}
+
+        .navbar-brand>img {
+    display: block;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+       #s_icon{
+
+float: right;
+
+    }
+    
+.mg_img {
+    position: absolute;
+    margin-top: -285px ;
+}
+
+
+
+.button_order {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin-top: 100px;
+    margin-left:-15px;
+    height: 32px;
+    width: 160px;
+}
+
+}
+
+
+
+/* @med 985*/
+
+
+@media only screen and (max-width : 985px) {
+      input[type=text], input[type=password] {
+     padding-right: 24%;
+     padding-top: 5%;
+    display: inline-block;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+        div#stories_pub {
+    margin-left: 6px;
+}
+
+            .navbar-brand>img {
+    display: block;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+  
+
+           .button_buy{
+margin-left: 30%;
+margin-bottom: 25px; 
+
+    }
+
+       #s_icon{
+
+float: right;
+
+    }
+    
+
+    .mg_img {
+    position: absolute;
+    margin-top: -295px ;
+}
+
+
+div#nav_top {
+    float: right;
+    margin-top: 30px;
+}
+
+
+
+.button_order {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    margin-top: 68px;
+   
+    height: 32px;
+    width: 160px;
+}
+    #foot_ba {
+    background-color: #e6f6ff;
+    margin-top: 0px;
+}
+
+
+}
+
+
+
+
+
+
+
+/* @media 769*/
+
+@media only screen and (max-width : 769px){
+      input[type=text], input[type=password] {
+     padding-right: 20%;
+     padding-top: 5%;
+    display: inline-block;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+}
+        div#stories_pub {
+    margin-left:-30px;
+}
+
+            .navbar-brand>img {
+    display: block;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+  
+
+
+    .button_buy{
+    margin-left: 30%;
+    margin-bottom: 20px; 
+
+    }
+
+  #ab_mag {
+     border-top: 2px solid black; 
+    padding-top: 12px;
+    margin-top: 60px;
+    font-size: 12px;
+    width: 228px;
+    margin-left: 50px;
+    }
+
+       #s_icon{
+
+  float: right;
+
+
+    }
+    
+    .navbar-header {
+    float: none;
+    }
+
+    .mg_img {
+    position: absolute;
+   width: 90px;
+   margin-top: -130px;
+    }
+
+
+    #sub_to_mag{
+        font-size: 30px;
+          text-align: center;
+    }
+
+    #month_subs{
+        text-align: center;
+        font-size: 12px;
+        margin-top: 70px;
+
+    
+    }
+
+    .button_order{
+        margin-left: 0%;
+        margin-top: 60px;
+
+    }
+    #mag_z {
+    margin-top: 15%;
+    font-size: 40px;
+    text-align: center;
+    }
+
+    #foot_ba {
+    background-color: #e6f6ff;
+    margin-top: 0px;
+    }
+
+
+    .desc {
+   margin-left: 26px;
+    width: 206px;
+    margin-top: -14px;
+}
+
+}
+
+
+/* @media 530*/
+
+
+
+@media only screen and (max-width : 530px){
+            .navbar-brand>img {
+    display: block;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+  
+    .overlay a {
+    padding: 1px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    }
+
+       .button_buy{
+    margin-left: 30%;
+    margin-bottom: 15px; 
+
+    }
+
+    #ab_mag {
+    border-top: 2px solid black;
+    padding-top: 12px;
+    margin-top: 41px;
+    font-size: 8px;
+    margin-left: 30%;
+    padding-top: 22px;
+    width: 220px;
+    }
+
+    .desc {
+    margin-left: 12px;
+    width: 220px;
+    margin-top: -32px;
+    }
+  
+    .navbar-brand>img {
+        width: 70%;
+
+    }
+       #s_icon{
+
+    float: right;
+
+    }
+    
+
+
+    .mg_img {
+    position: absolute;
+    width: 80px;
+    margin-top: -140px;
+    }
+
+
+    #sub_to_mag{
+        font-size: 20px;
+        padding-left: 20px;
+    }
+
+    #month_subs{
+        text-align: center;
+        font-size: 10px;
+        margin-top: 0px;
+
+    
+    }
+
+    .button_order{
+        margin-left: 33%;
+        margin-top: 0px;
+        margin-bottom: 2px;
+
+    }
+    #mag_z {
+    font-size: 40px;
+    text-align: center;
+    padding-left: 75px;
+    }
+    #foot_ba {
+    background-color: #e6f6ff;
+    margin-top: 0px;
+    }
+
+
+}
+
+
+
+
+/* lower res*/
+
+
+
+@media only screen and (max-width : 360px) {
+        .navbar-brand>img {
+    display: block;
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+}
+  
+    .button_buy{
+    margin-left: 30%;
+    margin-bottom: 5px; 
+
+    }
+
+    #ab_mag {
+     border-top: 2px solid black; 
+    padding-top: 22px;
+    margin-top: 13%;
+   width:175px;
+    }
+.desc {
+    margin-left: 14px;
+    font-size: 10px;
+    margin-top: -7px;
+    width: 132%;
+    }
+    #foot_ba {
+    background-color: #e6f6ff;
+    margin-top: 0px;
+    }
+
+    .navbar-brand>img {
+        width: 90%;
+
+    }
+       #s_icon{
+
+float: right;
+
+    }
+    
+
+    #mag_z {
+    margin-top: 15%;
+    font-size: 40px;
+    text-align: justify;
+    padding-left: 60px;
+    }
+    .mg_img {
+    position: absolute;
+   width: 60px;
+    margin-top: -130px;
+    }
+
+
+    #sub_to_mag{
+        font-size: 18px;
+    }
+
+    #month_subs{
+        text-align: center;
+        font-size: 12px;
+        margin-top: 0px;
+
+    
+    }
+
+    .button_order{
+        margin-left: 25%;
+        margin-top: 0px;
+        margin-bottom: 2px;
+
+    }
+   
+
+
+}
+
+
+
+
+
+
+
+
+    a {
+    text-decoration: none;
+    color: black;
+    margin-right: 34px;
+    }
+
+    #foot_last{
+
+  background-color: black;
+    }
+  #legal_en{
+
+    text-align: center;
+  }
+    #follow{
+    text-align: center;
+    }
+
+
+    #adv_enq{
+
+    text-align: center;
+
+    }
+
+  .col-sm-2{
+padding: 1px !important;
+
+  }
+    /* Remove the navbar's default margin-bottom and rounded borders */ 
+    h3,h4,h5,h6{
+   text-decoration: none !important;
+   color: white;
+
+
+    }
+
+    #gernal_enq{
+    text-align: center;
+
+
+    }
+
+    .img_gal {
+    margin-top: 0%;
+    }
+    .foot_text{
+
+    color: black;
+    text-align: center;
+
+    }
+    div#nav_top {
+    float: right;
+    margin-top: 2px;
+    }
+
+    #sign_it > h2,h4{
+
+    color: black;
+
+    }
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    #sub_mag{
+      margin-top: 89px;
+      position: relative;
+      
+
+      background-color: black;
+    }
+
+
+    .active{
+
+    border-top: 3px solid black;
+
+
+    }
+   
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 450px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: white;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color:white;
+      color: white;
+      padding: 15px;
+    }
+    .span.glyphicon.glyphicon-search{
+
+    padding-right:5px !important;
+
+    }
+ 
+
+
+    #g_soci{
+      float: left;
+      margin-top: 10%;
+    border-top: 5px solid black;
+
+      transform: rotate(270deg);
+    }
+
+    
+
+
+
+    #book_img{
+
+    width: 100%;
+    position: inherit;
+    z-index: -1;
+
+    }
+
+ 
+
+
+    .button_sign{
+    background-color: transparent;
+     border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+    margin-top: 66px;
+    font-size: 13.06 pt;
+    padding-left: 5%;
+
+
+    }
+
+    #stories_pub{
+
+    margin-top: 51px;
+
+    }
+
+    #horse_foot{
+
+      margin-top:60px;
+
+    }
+    #btm_img1{
+     left: 207px;
+    top: -50px;
+    position: absolute;
+
+
+    }
+
+    body {
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    }
+
+    .overlay {
+    height: 0%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+    }
+
+    .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    }
+
+
+
+    .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+    }
+
+    .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 0px;
+    padding: 5px;
+    font-size: 60px;
+    }
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 30px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 0px;
+    }
+    }
+
+
+#ham_siz{
+float: right;
+padding-right:15px; 
+
+}
+body,html{
+  overflow-x:hidden;
+
+}
+
+
